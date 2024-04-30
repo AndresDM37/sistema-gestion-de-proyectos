@@ -1,0 +1,21 @@
+{
+  "name": "sistema-gestion-de-proyectos",
+  "version": "1.0.0",
+  "description": "Se debe crear una aplicación web donde se pueda llevar el control del avance de diferentes proyectos de desarrollo, dicho proyecto debe estar dividido en historias de usuario las cuales hacen referencia a las funcionalidades globales de cada proyecto (Ej. En un proyecto e-commerce, una historia de usuario es \"Poder tener un carrito de compras por usuario\"), y a su vez en cada historia de usuario se podrá levantar un ticket de desarrollo el cual hace referencia a una tarea específica de la historia de usuario a la que corresponde (Ej. un ticket sería \"Crear la interfaz del detalle del carrito de compras\", esta estaría relacionada a la historia de usuario \"Poder tener un carrito de compras por usuario\"). El objetivo principal es poder levantar tickets o solicitudes de desarrollo para cada proyecto y poder verificar el estado del mismo.",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch ./src/app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@libsql/client": "0.6.0",
+    "bcrypt": "5.1.1",
+    "body-parser": "1.20.2",
+    "dotenv": "16.4.5",
+    "express": "4.19.2",
+    "morgan": "1.10.0"
+  }
+}
